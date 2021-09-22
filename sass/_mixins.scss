@@ -1,0 +1,36 @@
+@import 'var';
+
+
+@mixin purple-button {
+    font-size: $button-text;
+    font-weight: 300;
+    background: $purple;
+    border-radius: 40px;
+    color: white;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+@mixin white-button {
+    font-size: $button-text;
+    font-weight: 300;
+    background: white;
+    border-radius: 40px;
+    color: $purple;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+@mixin purple-border {
+    border-left: 1px solid $purple;
+    padding: 1rem;
+}
+
+@mixin white-border {
+    border-left: 1px solid white;
+    padding: 1rem;
+}
